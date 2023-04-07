@@ -1,0 +1,52 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--background-color);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.advice {
+    background-color: var(--advice-card-color);
+    height: 335px;
+    width: 545px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.id {
+    color: var(--advice-dice-color);
+    padding-top: 50px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.text{
+    color: var(--text-color);
+    font-size: 27px;
+    text-align: center;
+    padding: 15px 40px 40px 40px;
+}
+
+
+.button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+.button:hover{
+    color:#53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 10px var(--advice-dice-color);
+}
